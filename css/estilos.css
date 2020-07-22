@@ -1,0 +1,272 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Chelsea Market', cursive;
+}
+
+.bienvenido h1{
+    text-align: -webkit-center;
+    
+    
+}
+
+
+h2{
+    color: red;
+    text-align: center; 
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+h3{
+    margin: 10px;
+    text-align: center;
+    color: red;
+    font-size: 30px;
+}
+h4{
+    text-align: center;
+}
+h5{
+    text-align: center;
+}
+a{
+    display: inline-block;    
+    text-decoration: none;
+    color: red;    
+    padding: 5px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin: 1px;
+    box-shadow: 5px 5px 2px #888;
+    
+}
+img{
+    display: flex;
+    height: 100px;
+    width: 200px;
+}
+#dg {
+    display: block;
+    width: 250px;
+    margin: 0px 0px 0px 50px;
+    padding: 5px;
+}
+#to{
+    display: block;
+    width: 250px;
+    margin: 0px 0px 0px 50px;
+    padding: 5px; 
+}
+#sc{
+    display: block;
+    width: 250px;
+    margin: 0px 0px 0px 50px;
+    padding: 5px;
+}
+nav a:hover{
+    background: #403F3F;
+
+}
+.header{
+    background: LightGray;
+    display: flex;
+    flex-flow: column nowrap;
+    
+}
+
+.menu{
+    background: LightGray;
+    display: flex;
+    flex-flow: row nowrap;    
+    align-items: center;
+
+}
+.logo{
+    background: LightGray;
+    flex: 1 1 auto;
+    
+}
+.nav{
+    background: LightGray;    
+    height: 50px;
+    margin: 20px;
+   
+}
+
+
+.padre{
+    display: flex;
+    flex-flow: column nowrap;
+    width: -webkit-fill-available;
+}
+
+.section{
+    background: LightGray;
+    margin: 40px 0px 40px 0px;
+    padding: 30px;
+    display: block;
+    width: -webkit-fill-available;
+}
+.section{
+    
+    margin: 40px 0px 40px 0px;
+    padding: 30px;
+    display: flex;
+    width: -webkit-fill-available;
+}
+.titulo{
+    display: block;
+    width: -webkit-fill-available;
+}
+.articulos{
+    background: rgb(238, 238, 238);
+    color: #333;
+    border: 1px solid #333;
+    margin: 10px;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px #888;
+}
+.footer{
+    background: LightGray;
+    display: block;
+    margin: 50px 0px 0px 0px;
+    font-size: 10px;
+    
+}
+
+
+.form-auto form select{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    width: 80%;
+    height: 30px;
+}
+
+
+
+/*FORMULARIO AUTOGESTION 2*/
+
+.three-columns {
+    
+    -webkit-column-count: 4; /* Chrome, Safari, Opera */
+    -moz-column-count: 4; /* Firefox */
+    column-count: 4;
+    margin: 20px;
+    padding: 20px;
+    
+    
+    
+}
+#tres{
+    
+    column-count: 3;
+    margin: 20px;
+    padding: 20px;
+}
+/*formulario de usuario*/
+.usuarios{
+    margin-left: 450px;
+    padding: 30px;
+    display: inline-block;
+    
+}
+.user select{
+    display: block;
+    height: 30px;
+    width: 284px
+}
+.formularioUser{    
+    margin: 40px;
+    padding: 0px;
+}
+
+.form-auto input{
+    display: block;
+    width: 80%;
+    height: 30px;
+
+    
+}
+.form-auto textarea{
+    display: block;
+    width: 80%;
+    height: 81px;
+    
+
+}
+.form-user input{
+    display: block;
+    width: 100%;
+}
+
+.form-user form{
+    text-align: center;
+    width: 305px;
+    display: block;
+    margin: auto;
+    padding: 10px
+}
+.user label{
+    padding: 5px;
+}
+
+.user input{
+    padding: 5px;
+}
+
+/*botones */
+.botones{    
+    justify-content: center;
+    margin: 10px;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+   
+    
+    
+}
+.botones button{    
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid red;
+    border-radius: 5px;
+    align-items: center;
+    
+    
+    
+    
+}
+.botones button:hover{
+    background-color: gray;
+}
+.tabla table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    white-space: nowrap;
+    margin: 10px;
+    padding: 40px;
+   
+  }
+.tabla input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    font-size: 17px;
+    text-align: center;
+}
+
+th, td {    
+    text-align: center;
+    border: 1px solid black;
+}
+th{
+    color: red;
+}
